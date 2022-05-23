@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1653149490 source:d:\creajeu\cursesprojets\textraster_test\main_textraster_test.c
+	"curses.h"
+	<stdlib.h>
+	"textRaster.h"
+
+1642212666 d:\creajeu\cursesprojets\pdcurses\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+	<stdbool.h>
+
+1653129928 d:\creajeu\cursesprojets\textraster\textraster.h
+	"LineDrawer.h"
+
+1651526222 d:\creajeu\cursesprojets\textraster\drawline.h
+
+1653142950 d:\creajeu\cursesprojets\textraster\linedrawer.h
+
