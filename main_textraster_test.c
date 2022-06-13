@@ -38,12 +38,12 @@ wchar_t shade(float s)
 void drawLine(float yStart, float xStart, float yEnd, float xEnd)
 {
 	struct LineDrawer d;
-	start(&d, yStart, xStart, yEnd, xEnd);
-	while(!hasFinished(&d))
+	lineDrawerStart(&d, yStart, xStart, yEnd, xEnd);
+	while(!lineDrawerHasFinished(&d))
 	{
 		mvaddch(d._currY, d._currX, shade(d._currDist));
 		mvaddch(d._currYbis, d._currXbis, shade(d._currDistBis));
-		next(&d);
+		lineDrawerNext(&d);
 	}
 }
 
